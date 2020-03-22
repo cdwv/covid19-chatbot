@@ -1,0 +1,11 @@
+version: '2'
+services:
+  app:
+      #    image: node
+    build: .
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 3001:3000
+    environment:
+      - SERVICE_80_NAME=chatbot-dev
