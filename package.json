@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "machina": "^2.0.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "request": "2.73.0",
     "request-promise": "^4.2.5",
     "restify": "4.1.1"
